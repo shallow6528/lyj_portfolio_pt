@@ -395,11 +395,11 @@ a:active {cursor: url('/portfolio/img/cursor2.cur'), auto;}
     transform: translate3d(0, 0, 0);
     opacity: 1;
   }
-  .link_, .link_g, .link_n{
+  .link_, .link_g, .link_f{
     font-size: 2rem;
     color: #000;
   }
-  .link_ a:hover, .link_g a:hover, .link_n a:hover{
+  .link_ a:hover, .link_g a:hover, .link_f a:hover{
     color: green;
   }
   .link_, .link_g{
@@ -643,7 +643,7 @@ a:active {cursor: url('/portfolio/img/cursor2.cur'), auto;}
   }
   .swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets {
     right: 14px;
-    top: 75%;
+    top: 55%;
     transform: translate3d(0px,-50%,0);
   }
 
@@ -1010,7 +1010,7 @@ transition: all 0.5s;
         height: 12rem;
         line-height: 5.5rem;
     }
-   .link_,.link_g,.link_n{
+   .link_,.link_g{
     font-size: 1.9rem;
    }
   #page_2 .icon{

@@ -1,10 +1,3 @@
-window.onload= function(){
-
-}
-
-//바닐라 자바스크립트 레디
-
-
 $(document).ready(function(){
 
     AOS.init(); //aos 실행 객체에 직접 값을 넣은것
