@@ -294,10 +294,10 @@ a:active {cursor: url('/portfolio/img/cursor2.cur'), auto;}
   }
   
   
-  .swiper-image-one, .swiper-image-three, .swiper-image-five{
+  .swiper-image-one, .swiper-image-three, .swiper-image-five, .swiper-image-seven{
     position: relative;
   }
-  .swiper-image-one:after, .swiper-image-three:after, .swiper-image-five:after{
+  .swiper-image-one:after, .swiper-image-three:after, .swiper-image-five:after, .swiper-image-seven::after{
     display: block;
     content: "";
     position: absolute;
@@ -315,7 +315,10 @@ a:active {cursor: url('/portfolio/img/cursor2.cur'), auto;}
   .swiper-image-five:after{
     background-image: url(/portfolio/img/pt_03.jpg);
   }
-  .swiper-image-two,.swiper-image-four,.swiper-image-six {
+  .swiper-image-seven:after{
+    background-image: url(/portfolio/img/pt_04.jpg);
+  }
+  .swiper-image-two,.swiper-image-four,.swiper-image-six,.swiper-image-eight {
     background-color: #fff;
   }
  .swiper-image {
